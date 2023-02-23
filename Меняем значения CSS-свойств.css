@@ -95,6 +95,9 @@ body {
   
   .advantages-item {
     margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 20px solid #e2e2e2;
+    color: #999999;
   }
   
   .site-footer {
@@ -111,4 +114,4 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding: 0 20px;
-  }
+  }  
