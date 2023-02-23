@@ -105,6 +105,11 @@ h2 {
   color: #6a6a6a;
 }
 
+.vip {
+  border-color: #ffb864;
+  color: #000000;
+}
+
 .site-footer {
   min-width: 550px;
   background-color: #847462;
