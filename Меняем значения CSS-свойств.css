@@ -17,6 +17,11 @@ body {
     line-height: 64px;
   }
   
+  h2 {
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 12px;
+  }
+  
   .container {
     width: 510px;
     margin: 0 auto;
@@ -85,8 +90,7 @@ body {
   
   .advantages-list {
     padding: 0;
-    /* Добавьте сюда свойство list-style */
-    list-style: none;
+    list-style: none;  
   }
   
   .advantages-item {
@@ -107,4 +111,4 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding: 0 20px;
-  }  
+  }
