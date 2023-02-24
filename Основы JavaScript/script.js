@@ -8,4 +8,10 @@ themeButton.onclick = function() {
 };
 
 let message = document.querySelector('.subscription-message');
-message.textContent = 'Какой <strong>непонятливый</strong> браузер!';
+
+let form = document.querySelector('.subscription');
+form.onsubmit = function(evt) {
+  // Инструкция ниже отменяет отправку данных
+  evt.preventDefault();
+  message.textContent = 'Форма отправлена!';
+};
