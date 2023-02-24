@@ -1,2 +1,1 @@
-console.log(document.querySelector('.page'));
-console.log(document.querySelector('.theme-button'));
+document.querySelector('.page').classList.remove('light-theme');
