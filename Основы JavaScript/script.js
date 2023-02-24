@@ -8,5 +8,4 @@ themeButton.onclick = function() {
 };
 
 let message = document.querySelector('.subscription-message');
-
-console.log(message.textContent);
+message.textContent = 'Какой <strong>непонятливый</strong> браузер!';
